@@ -1,0 +1,19 @@
+.todo-list {
+    width: 40%;
+    &__add-todo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    &__input {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    &__btn {
+        cursor: pointer;
+    }
+}
